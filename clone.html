@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste HTML</title>
+    <style>
+        body{
+            background-color: rgb(10, 74, 117);
+            margin: 0;
+            padding: 0;
+        }
+        .formulario{
+            background-color: aliceblue;
+            float: left;
+            border: 0.5vh solid rgb(0, 48, 153);
+            margin: 0;
+            padding: 0;
+            margin-left: 39.7%;
+            margin-top: 17%;
+        }
+        .botao{
+            color: aliceblue;
+            background-color: rgb(68, 0, 255);
+            border-radius: 0.5;
+            margin-left: 12vh;
+            cursor: pointer;
+            transition: background-color 100ms;
+        }
+        .botao:hover{
+            background-color: rgb(36, 0, 134);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formulario">
+    <form method="post" action="index.php">
+        <label for="">Nome: </label>
+        <input type="text" name="nome"> <br> <br>
+        <label for="">Email: </label>
+        <input type="email" name="email"> <br> <br>
+        <label for="">Telefone: </label>
+        <input type="number" name="telefone"> <br> <br>
+        <input type="submit" value="SUBMIT" class="botao">
+    </form>
+    </div>
+
+</body>
+</html>

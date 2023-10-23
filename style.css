@@ -1,0 +1,341 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    background-color:#171717
+}
+.rodapé{
+width: 100%;
+height: 12vh;
+float: left;
+position: relative;
+overflow: hidden;
+background-color: rgba(82, 80, 80, 0.98);
+margin: 0%;
+padding: 0%;
+border-width: 0.3vh;
+}
+#nomeLogo{
+    margin-top: 0.5vh;
+    width: 5%;
+    height: auto;
+}
+.cabeçario{
+    width: 35%;
+    height: 57.2vh;
+    padding-left: 0.2vh;
+    position: fixed;
+    background-color: rgba(82, 80, 80, 0.973);
+    float:left;
+    top: 27vh;
+    left: 72vh;
+    border-radius: 2vh;
+    color: rgb(44, 44, 44);
+}
+#cabeçarioEscrita{
+    position: fixed;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    color: rgb(214, 214, 214);
+}
+
+.corpo{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(170, 169, 169);
+    right: 0.1vh;
+    top: 7vh;
+    border-radius: 0vh 0vh 2vh 2vh;
+}
+#usuario{
+ background-color: #ffffffb9;
+ width: 95%;
+ height: 9.3vh;
+ margin-left: 2.5vh;
+ top: 2.5vh;
+ position: relative;
+ border: solid white;
+ border-width: 0.1vh;
+ 
+}
+
+#email{
+    background-color: #ffffffb9;;
+    width: 95%;
+    height: 9.3vh;
+    margin-left: 2.5vh;
+    top: 5vh;
+    position: relative;
+    border: solid white;
+    border-width: 0.1vh;
+}
+#telefone{
+    background-color: #ffffffb9;;
+    width: 95%;
+    height: 9.3vh;
+    margin-left: 2.5vh;
+    top: 7.5vh;
+    position: relative;
+    border: solid white;
+    border-width: 0.1vh;
+}
+#sexo{
+background-color: #ffffffb9;;
+    width: 95%;
+    height: 9.3vh;
+    margin-left: 2.5vh;
+    top: 10vh;
+    position: relative;
+    border: solid white;
+    border-width: 0.1vh;
+}
+.sexualidade{
+    width: 3vh;
+    margin-top: 12vh;
+    margin-left: 2.1vh;
+    cursor: pointer;
+}
+#usuario input[type="button"] {
+    float: right;
+}
+#email input[type="button"] {
+    float: right;
+}
+#senha input[type="button"] {
+    float: right;
+}
+#telefone input[type="button"] {
+    float: right;
+}
+.botãovermelho{
+    background-color: red;
+    cursor: pointer;
+    width: 3.2vh;
+    height: 3.2vh;
+    border: none;
+    transition:filter 0.2s ease;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 2.4vh;
+    right: 0.5vh;
+}
+.botãovermelho:hover {
+    filter: saturate(0.5);
+}
+.botãoverde{
+    background-color: green;
+    cursor: pointer;
+    width: 3.2vh;
+    height: 3.2vh;
+    border: none;
+    transition:filter 0.2s ease;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 2.4vh;
+    right: 1vh;
+}
+.botãoverde:hover {
+    filter: saturate(2.4);
+}
+.prompts{
+    width: 80%;
+    height: 4vh;
+    margin-left: 2vh;
+    margin-top: 4.5vh;
+    border-radius: 1vh;
+    border-width: 0.1vh;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.promptsDescrição{
+    width: 16%;
+    height: 3.3vh;
+    margin-left: 2vh;
+    margin-top: 0.5vh;
+    padding-bottom: 2vh;
+    border-radius: 1vh;
+    border-width: 0.1vh;
+    position: absolute;
+    background-color: rgb(247, 247, 247);
+    color: #161616;
+    padding-left: 0vh;
+    font-size: small;
+}
+#submit{
+    border-radius: 4vh;
+    border: none;
+    margin-top: 12vh;
+    margin-left: 85%;
+    cursor: pointer;
+    position: absolute;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: #363636;
+}
+#submit:hover{
+    background-color: rgb(216, 216, 216);
+    transform: scale(0.9);
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+.fundoPretoTransparente{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+#SUMALUCIFER{
+    font-size: 0.1vh;
+}
+@media only screen and (max-width: 1200px) {
+    /* Estilos para dispositivos com largura máxima de 768px */
+    body{
+        max-width:100%;
+    }
+    .rodapé{
+        background-color: rgba(82, 80, 80, 0.98);
+    }
+    #nomeLogo{
+        margin-top: 0vh;
+        width: 5%;
+        height: auto;
+    }
+    .cabeçario{
+        left: 67vh;
+        width: 34%;
+        position: relative;
+        top: 15vh;
+    }
+    #submit{
+        margin-top: 9vh;
+        margin-left:81%;
+        width: 10vh;
+        height: 4vh;
+        font-size: small;
+
+    }
+    .sexualidade{
+        margin-top: 10vh;
+        width: 2vh;
+        height: 2vh;
+    }
+    .sexualidade2{
+        margin-top: 10vh;
+        width: 2vh;
+        height: 2vh;
+    }
+}
+
+@media only screen and (max-width: 974px) {
+    /* Estilos para dispositivos com largura máxima de 768px */
+    body{
+        max-width:100%;
+    }
+    .rodapé{
+        background-color: rgba(82, 80, 80, 0.98);
+    }
+    #nomeLogo{
+        width: 7%;
+        height: auto;
+        position: absolute;
+    }
+    .cabeçario{
+        left: 55vh;
+        width: 40%;
+        position: relative;
+        top: 15vh;
+    }
+    #submit{
+        margin-top: 9vh;
+        margin-left:82%;
+        width: 10vh;
+        height: 4vh;
+        font-size: small;
+
+    }
+    .sexualidade{
+        margin-top: 10vh;
+        width: 2vh;
+        height: 2vh;
+        margin-left: 1vh;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    /* Estilos para dispositivos com largura máxima de 768px */
+    body{
+        max-width:100%;
+    }
+    .rodapé{
+        background-color: rgba(82, 80, 80, 0.98);
+    }
+    #nomeLogo{
+        width: 9%;
+        height: auto;
+    }
+    .cabeçario{
+        left: 34vh;
+        width: 50%;
+        position: relative;
+        top: 15vh;
+    }
+    #submit{
+        margin-top: 9.5vh;
+        margin-left:84%;
+        width: 10vh;
+        height: 4vh;
+        font-size: small;
+
+    }
+    .sexualidade{
+        margin-top: 10vh;
+        width: 2.5vh;
+        height: 2.5vh;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    /* Estilos para dispositivos com largura máxima de 768px */
+    body{
+        max-width: 100%;
+    }
+    .rodapé{
+        height: 10vh;
+    }
+    #nomeLogo{
+        width: 14%;
+        height: auto;
+    }
+    .cabeçario{
+        left: 1.1vh;
+        width: 96%;
+        height: 10%;
+        position: relative;
+        top: 5vh;
+    }
+    .corpo{
+        width: 100%;
+        height: 60vh;
+    }
+    #usuario{
+        width: 90%;
+    }
+    #email{
+        width: 90%;
+    }
+    #telefone{
+        width: 90%;
+    }
+}
